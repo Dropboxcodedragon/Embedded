@@ -1,0 +1,361 @@
+Dependencies for Project 'Demo', Target 'Project': (DO NOT MODIFY !)
+F (.\Libraries\CMSIS\DeviceSupport\startup\startup_stm32f051.s)(0x599E4F40)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Project-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\mdk\ARM\CMSIS\Include-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Device\Include--pd "__UVISION_VERSION SETA 523" --pd "STM32F051x8 SETA 1"--list .\listings\startup_stm32f051.lst --xref -o .\objects\startup_stm32f051.o --depend .\objects\startup_stm32f051.d)
+F (.\Libraries\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_gpio.c)(0x599E4F40)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Bsp -I .\Libraries\CMSIS\CoreSupport -I .\Libraries\CMSIS\DeviceSupport -I .\Libraries\CMSIS\DeviceSupport\startup -I .\Libraries\STM32F0xx_StdPeriph_Driver\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM0-I.\RTE\_Project-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\mdk\ARM\CMSIS\Include-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F051x8 -DSTM32F051-o .\objects\stm32f0xx_gpio.o --omf_browse .\objects\stm32f0xx_gpio.crf --depend .\objects\stm32f0xx_gpio.d)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x599E4F40)
+I (.\Libraries\CMSIS\DeviceSupport\stm32f0xx.h)(0x599E4F40)
+I (.\Libraries\CMSIS\CoreSupport\core_cm0.h)(0x599E4F40)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x599E4F40)
+I (.\Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x599E4F40)
+I (.\Libraries\CMSIS\DeviceSupport\system_stm32f0xx.h)(0x599E4F40)
+I (.\App\stm32f0xx_conf.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_can.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crs.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x599E4F40)
+F (.\Libraries\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_misc.c)(0x599E4F40)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Bsp -I .\Libraries\CMSIS\CoreSupport -I .\Libraries\CMSIS\DeviceSupport -I .\Libraries\CMSIS\DeviceSupport\startup -I .\Libraries\STM32F0xx_StdPeriph_Driver\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM0-I.\RTE\_Project-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\mdk\ARM\CMSIS\Include-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F051x8 -DSTM32F051-o .\objects\stm32f0xx_misc.o --omf_browse .\objects\stm32f0xx_misc.crf --depend .\objects\stm32f0xx_misc.d)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x599E4F40)
+I (.\Libraries\CMSIS\DeviceSupport\stm32f0xx.h)(0x599E4F40)
+I (.\Libraries\CMSIS\CoreSupport\core_cm0.h)(0x599E4F40)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x599E4F40)
+I (.\Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x599E4F40)
+I (.\Libraries\CMSIS\DeviceSupport\system_stm32f0xx.h)(0x599E4F40)
+I (.\App\stm32f0xx_conf.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_can.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crs.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x599E4F40)
+F (.\Libraries\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_rcc.c)(0x599E4F40)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Bsp -I .\Libraries\CMSIS\CoreSupport -I .\Libraries\CMSIS\DeviceSupport -I .\Libraries\CMSIS\DeviceSupport\startup -I .\Libraries\STM32F0xx_StdPeriph_Driver\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM0-I.\RTE\_Project-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\mdk\ARM\CMSIS\Include-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F051x8 -DSTM32F051-o .\objects\stm32f0xx_rcc.o --omf_browse .\objects\stm32f0xx_rcc.crf --depend .\objects\stm32f0xx_rcc.d)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x599E4F40)
+I (.\Libraries\CMSIS\DeviceSupport\stm32f0xx.h)(0x599E4F40)
+I (.\Libraries\CMSIS\CoreSupport\core_cm0.h)(0x599E4F40)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x599E4F40)
+I (.\Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x599E4F40)
+I (.\Libraries\CMSIS\DeviceSupport\system_stm32f0xx.h)(0x599E4F40)
+I (.\App\stm32f0xx_conf.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_can.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crs.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x599E4F40)
+F (.\Libraries\CMSIS\DeviceSupport\system_stm32f0xx.c)(0x599E4F40)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Bsp -I .\Libraries\CMSIS\CoreSupport -I .\Libraries\CMSIS\DeviceSupport -I .\Libraries\CMSIS\DeviceSupport\startup -I .\Libraries\STM32F0xx_StdPeriph_Driver\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM0-I.\RTE\_Project-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\mdk\ARM\CMSIS\Include-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F051x8 -DSTM32F051-o .\objects\system_stm32f0xx.o --omf_browse .\objects\system_stm32f0xx.crf --depend .\objects\system_stm32f0xx.d)
+I (Libraries\CMSIS\DeviceSupport\stm32f0xx.h)(0x599E4F40)
+I (.\Libraries\CMSIS\CoreSupport\core_cm0.h)(0x599E4F40)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x599E4F40)
+I (.\Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x599E4F40)
+I (Libraries\CMSIS\DeviceSupport\system_stm32f0xx.h)(0x599E4F40)
+I (.\App\stm32f0xx_conf.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x599E4F40)
+I (.\Libraries\CMSIS\DeviceSupport\stm32f0xx.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_can.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crs.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x599E4F40)
+F (.\FreeRTOS\portable\MemMang\heap_4.c)(0x599E4F40)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Bsp -I .\Libraries\CMSIS\CoreSupport -I .\Libraries\CMSIS\DeviceSupport -I .\Libraries\CMSIS\DeviceSupport\startup -I .\Libraries\STM32F0xx_StdPeriph_Driver\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM0-I.\RTE\_Project-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\mdk\ARM\CMSIS\Include-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F051x8 -DSTM32F051-o .\objects\heap_4.o --omf_browse .\objects\heap_4.crf --depend .\objects\heap_4.d)
+I (D:\mdk\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x599E4F40)
+I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\App\FreeRTOSConfig.h)(0x599E4F40)
+I (.\FreeRTOS\include\projdefs.h)(0x599E4F40)
+I (.\FreeRTOS\include\portable.h)(0x599E4F40)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x599E4F40)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x599E4F40)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x599E4F40)
+I (.\FreeRTOS\include\task.h)(0x599E4F40)
+I (.\FreeRTOS\include\list.h)(0x599E4F40)
+F (.\FreeRTOS\portable\RVDS\ARM_CM0\port.c)(0x599E4F40)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Bsp -I .\Libraries\CMSIS\CoreSupport -I .\Libraries\CMSIS\DeviceSupport -I .\Libraries\CMSIS\DeviceSupport\startup -I .\Libraries\STM32F0xx_StdPeriph_Driver\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM0-I.\RTE\_Project-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\mdk\ARM\CMSIS\Include-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F051x8 -DSTM32F051-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x599E4F40)
+I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\App\FreeRTOSConfig.h)(0x599E4F40)
+I (.\FreeRTOS\include\projdefs.h)(0x599E4F40)
+I (.\FreeRTOS\include\portable.h)(0x599E4F40)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x599E4F40)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x599E4F40)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x599E4F40)
+I (.\FreeRTOS\include\task.h)(0x599E4F40)
+I (.\FreeRTOS\include\list.h)(0x599E4F40)
+F (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x599E4F40)()
+F (.\FreeRTOS\croutine.c)(0x599E4F40)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Bsp -I .\Libraries\CMSIS\CoreSupport -I .\Libraries\CMSIS\DeviceSupport -I .\Libraries\CMSIS\DeviceSupport\startup -I .\Libraries\STM32F0xx_StdPeriph_Driver\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM0-I.\RTE\_Project-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\mdk\ARM\CMSIS\Include-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F051x8 -DSTM32F051-o .\objects\croutine.o --omf_browse .\objects\croutine.crf --depend .\objects\croutine.d)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x599E4F40)
+I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\App\FreeRTOSConfig.h)(0x599E4F40)
+I (.\FreeRTOS\include\projdefs.h)(0x599E4F40)
+I (.\FreeRTOS\include\portable.h)(0x599E4F40)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x599E4F40)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x599E4F40)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x599E4F40)
+I (.\FreeRTOS\include\task.h)(0x599E4F40)
+I (.\FreeRTOS\include\list.h)(0x599E4F40)
+I (.\FreeRTOS\include\croutine.h)(0x599E4F40)
+F (.\FreeRTOS\event_groups.c)(0x599E4F40)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Bsp -I .\Libraries\CMSIS\CoreSupport -I .\Libraries\CMSIS\DeviceSupport -I .\Libraries\CMSIS\DeviceSupport\startup -I .\Libraries\STM32F0xx_StdPeriph_Driver\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM0-I.\RTE\_Project-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\mdk\ARM\CMSIS\Include-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F051x8 -DSTM32F051-o .\objects\event_groups.o --omf_browse .\objects\event_groups.crf --depend .\objects\event_groups.d)
+I (D:\mdk\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x599E4F40)
+I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\App\FreeRTOSConfig.h)(0x599E4F40)
+I (.\FreeRTOS\include\projdefs.h)(0x599E4F40)
+I (.\FreeRTOS\include\portable.h)(0x599E4F40)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x599E4F40)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x599E4F40)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x599E4F40)
+I (.\FreeRTOS\include\task.h)(0x599E4F40)
+I (.\FreeRTOS\include\list.h)(0x599E4F40)
+I (.\FreeRTOS\include\timers.h)(0x599E4F40)
+I (.\FreeRTOS\include\event_groups.h)(0x599E4F40)
+F (.\FreeRTOS\list.c)(0x599E4F40)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Bsp -I .\Libraries\CMSIS\CoreSupport -I .\Libraries\CMSIS\DeviceSupport -I .\Libraries\CMSIS\DeviceSupport\startup -I .\Libraries\STM32F0xx_StdPeriph_Driver\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM0-I.\RTE\_Project-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\mdk\ARM\CMSIS\Include-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F051x8 -DSTM32F051-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (D:\mdk\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x599E4F40)
+I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\App\FreeRTOSConfig.h)(0x599E4F40)
+I (.\FreeRTOS\include\projdefs.h)(0x599E4F40)
+I (.\FreeRTOS\include\portable.h)(0x599E4F40)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x599E4F40)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x599E4F40)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x599E4F40)
+I (.\FreeRTOS\include\list.h)(0x599E4F40)
+F (.\FreeRTOS\queue.c)(0x599E4F40)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Bsp -I .\Libraries\CMSIS\CoreSupport -I .\Libraries\CMSIS\DeviceSupport -I .\Libraries\CMSIS\DeviceSupport\startup -I .\Libraries\STM32F0xx_StdPeriph_Driver\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM0-I.\RTE\_Project-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\mdk\ARM\CMSIS\Include-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F051x8 -DSTM32F051-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (D:\mdk\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\mdk\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x599E4F40)
+I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\App\FreeRTOSConfig.h)(0x599E4F40)
+I (.\FreeRTOS\include\projdefs.h)(0x599E4F40)
+I (.\FreeRTOS\include\portable.h)(0x599E4F40)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x599E4F40)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x599E4F40)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x599E4F40)
+I (.\FreeRTOS\include\task.h)(0x599E4F40)
+I (.\FreeRTOS\include\list.h)(0x599E4F40)
+I (.\FreeRTOS\include\queue.h)(0x599E4F40)
+F (.\FreeRTOS\tasks.c)(0x599E4F40)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Bsp -I .\Libraries\CMSIS\CoreSupport -I .\Libraries\CMSIS\DeviceSupport -I .\Libraries\CMSIS\DeviceSupport\startup -I .\Libraries\STM32F0xx_StdPeriph_Driver\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM0-I.\RTE\_Project-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\mdk\ARM\CMSIS\Include-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F051x8 -DSTM32F051-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (D:\mdk\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\mdk\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x599E4F40)
+I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\App\FreeRTOSConfig.h)(0x599E4F40)
+I (.\FreeRTOS\include\projdefs.h)(0x599E4F40)
+I (.\FreeRTOS\include\portable.h)(0x599E4F40)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x599E4F40)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x599E4F40)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x599E4F40)
+I (.\FreeRTOS\include\task.h)(0x599E4F40)
+I (.\FreeRTOS\include\list.h)(0x599E4F40)
+I (.\FreeRTOS\include\timers.h)(0x599E4F40)
+I (.\FreeRTOS\include\StackMacros.h)(0x599E4F40)
+F (.\FreeRTOS\timers.c)(0x599E4F40)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Bsp -I .\Libraries\CMSIS\CoreSupport -I .\Libraries\CMSIS\DeviceSupport -I .\Libraries\CMSIS\DeviceSupport\startup -I .\Libraries\STM32F0xx_StdPeriph_Driver\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM0-I.\RTE\_Project-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\mdk\ARM\CMSIS\Include-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F051x8 -DSTM32F051-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (D:\mdk\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x599E4F40)
+I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\App\FreeRTOSConfig.h)(0x599E4F40)
+I (.\FreeRTOS\include\projdefs.h)(0x599E4F40)
+I (.\FreeRTOS\include\portable.h)(0x599E4F40)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x599E4F40)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x599E4F40)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x599E4F40)
+I (.\FreeRTOS\include\task.h)(0x599E4F40)
+I (.\FreeRTOS\include\list.h)(0x599E4F40)
+I (.\FreeRTOS\include\queue.h)(0x599E4F40)
+I (.\FreeRTOS\include\timers.h)(0x599E4F40)
+F (.\Bsp\bsp.c)(0x599E4F40)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Bsp -I .\Libraries\CMSIS\CoreSupport -I .\Libraries\CMSIS\DeviceSupport -I .\Libraries\CMSIS\DeviceSupport\startup -I .\Libraries\STM32F0xx_StdPeriph_Driver\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM0-I.\RTE\_Project-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\mdk\ARM\CMSIS\Include-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F051x8 -DSTM32F051-o .\objects\bsp.o --omf_browse .\objects\bsp.crf --depend .\objects\bsp.d)
+I (Bsp\bsp.h)(0x599E4F40)
+I (.\Libraries\CMSIS\DeviceSupport\stm32f0xx.h)(0x599E4F40)
+I (.\Libraries\CMSIS\CoreSupport\core_cm0.h)(0x599E4F40)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x599E4F40)
+I (.\Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x599E4F40)
+I (.\Libraries\CMSIS\DeviceSupport\system_stm32f0xx.h)(0x599E4F40)
+I (.\App\stm32f0xx_conf.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_can.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crs.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x599E4F40)
+F (.\App\main.c)(0x599E4F40)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Bsp -I .\Libraries\CMSIS\CoreSupport -I .\Libraries\CMSIS\DeviceSupport -I .\Libraries\CMSIS\DeviceSupport\startup -I .\Libraries\STM32F0xx_StdPeriph_Driver\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM0-I.\RTE\_Project-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\mdk\ARM\CMSIS\Include-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F051x8 -DSTM32F051-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x599E4F40)
+I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\App\FreeRTOSConfig.h)(0x599E4F40)
+I (.\FreeRTOS\include\projdefs.h)(0x599E4F40)
+I (.\FreeRTOS\include\portable.h)(0x599E4F40)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x599E4F40)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x599E4F40)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x599E4F40)
+I (.\Bsp\bsp.h)(0x599E4F40)
+I (.\Libraries\CMSIS\DeviceSupport\stm32f0xx.h)(0x599E4F40)
+I (.\Libraries\CMSIS\CoreSupport\core_cm0.h)(0x599E4F40)
+I (.\Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x599E4F40)
+I (.\Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x599E4F40)
+I (.\Libraries\CMSIS\DeviceSupport\system_stm32f0xx.h)(0x599E4F40)
+I (.\App\stm32f0xx_conf.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_can.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crs.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x599E4F40)
+I (.\FreeRTOS\include\task.h)(0x599E4F40)
+I (.\FreeRTOS\include\list.h)(0x599E4F40)
+I (App\app_task.h)(0x599E4F40)
+F (.\App\app_task.c)(0x599E4F40)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Bsp -I .\Libraries\CMSIS\CoreSupport -I .\Libraries\CMSIS\DeviceSupport -I .\Libraries\CMSIS\DeviceSupport\startup -I .\Libraries\STM32F0xx_StdPeriph_Driver\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM0-I.\RTE\_Project-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\mdk\ARM\CMSIS\Include-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F051x8 -DSTM32F051-o .\objects\app_task.o --omf_browse .\objects\app_task.crf --depend .\objects\app_task.d)
+I (App\app_task.h)(0x599E4F40)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x599E4F40)
+I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\App\FreeRTOSConfig.h)(0x599E4F40)
+I (.\FreeRTOS\include\projdefs.h)(0x599E4F40)
+I (.\FreeRTOS\include\portable.h)(0x599E4F40)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x599E4F40)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x599E4F40)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x599E4F40)
+I (.\FreeRTOS\include\task.h)(0x599E4F40)
+I (.\FreeRTOS\include\list.h)(0x599E4F40)
+I (.\Bsp\bsp.h)(0x599E4F40)
+I (.\Libraries\CMSIS\DeviceSupport\stm32f0xx.h)(0x599E4F40)
+I (.\Libraries\CMSIS\CoreSupport\core_cm0.h)(0x599E4F40)
+I (.\Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x599E4F40)
+I (.\Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x599E4F40)
+I (.\Libraries\CMSIS\DeviceSupport\system_stm32f0xx.h)(0x599E4F40)
+I (.\App\stm32f0xx_conf.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_can.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crs.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x599E4F40)
+I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x599E4F40)
+F (.\App\stm32f0xx_it.c)(0x599E4F40)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Bsp -I .\Libraries\CMSIS\CoreSupport -I .\Libraries\CMSIS\DeviceSupport -I .\Libraries\CMSIS\DeviceSupport\startup -I .\Libraries\STM32F0xx_StdPeriph_Driver\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM0-I.\RTE\_Project-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\mdk\ARM\CMSIS\Include-ID:\mdk\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F051x8 -DSTM32F051-o .\objects\stm32f0xx_it.o --omf_browse .\objects\stm32f0xx_it.crf --depend .\objects\stm32f0xx_it.d)
+I (App\stm32f0xx_it.h)(0x599E4F40)
+F (.\App\FreeRTOSConfig.h)(0x599E4F40)()
+F (.\Doc\ReadMe.txt)(0x599E4F40)()
